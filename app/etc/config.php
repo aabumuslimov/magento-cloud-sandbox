@@ -77,7 +77,7 @@ return [
                 ],
                 'js' => [
                     'merge_files' => '0',
-                    'minify_files' => '0',
+                    'minify_files' => '1',
                     'minify_exclude' => [
                         'tiny_mce' => '/tiny_mce/',
                         'authorizenet_acceptjs' => '\\.authorize\\.net/v1/Accept',
@@ -86,10 +86,10 @@ return [
                     'move_script_to_bottom' => '0',
                     'session_storage_logging' => '0',
                     'translate_strategy' => 'dictionary',
-                    'enable_js_bundling' => '0'
+                    'enable_js_bundling' => '1'
                 ],
                 'css' => [
-                    'minify_files' => '0',
+                    'minify_files' => '1',
                     'minify_exclude' => [
                         'tiny_mce' => '/tiny_mce/'
                     ],
