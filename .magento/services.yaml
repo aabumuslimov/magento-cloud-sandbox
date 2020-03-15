@@ -5,6 +5,18 @@
 mysql:
     type: mysql:10.2
     disk: 2048
+    configuration:
+        schemas:
+            - main
+        endpoints:
+            mysql:
+                default_schema: main
+                privileges:
+                    main: admin
+            mbi:
+                default_schema: main
+                privileges:
+                    main: ro
 
 redis:
     type: redis:5.0
