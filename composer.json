@@ -15,6 +15,7 @@
         }
     },
     "require": {
+        "magento/extension-b2b": "^1.1",
         "magento/magento-cloud-metapackage": ">=2.3.4 <2.3.5",
         "magento/module-bundle-sample-data": "^100.3",
         "magento/module-catalog-rule-sample-data": "^100.3",
