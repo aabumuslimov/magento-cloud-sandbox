@@ -8,11 +8,13 @@ mysql:
     configuration:
         schemas:
             - main
+            - seconddb
         endpoints:
             mysql:
                 default_schema: main
                 privileges:
                     main: admin
+                    seconddb: admin
             mbi:
                 default_schema: main
                 privileges:
